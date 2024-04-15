@@ -1,3 +1,10 @@
+## 29:29
+
+- [x] Module setup
+- [x] Tailwind config
+- [ ] Header
+- [ ] Footer
+
 # Prismic + Next.js Minimal TypeScript Starter
 
 Want to quickly get started building your own project with [Prismic][prismic], [Next.js][nextjs], and TypeScript? This project includes basic configurations and nothing else. The project includes one Rich Text Slice, a homepage, and a dynamic page.
