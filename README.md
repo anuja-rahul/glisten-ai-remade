@@ -2,8 +2,9 @@
 
 - [x] Module setup
 - [x] Tailwind config
-- [ ] Header
-- [ ] Footer
+- [x] Header
+- [x] Footer
+- [ ] Hero Section
 
 # Prismic + Next.js Minimal TypeScript Starter
 
