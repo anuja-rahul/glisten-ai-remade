@@ -1,10 +1,11 @@
-## 1:27:08
+## 1:49:15
 
 - [x] Module setup
 - [x] Tailwind config
 - [x] Header
 - [x] Footer
-- [ ] Hero Section
+- [X] Hero Section
+- [ ] Bento Section
 
 # Prismic + Next.js Minimal TypeScript Starter
 

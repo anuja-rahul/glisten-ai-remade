@@ -17,7 +17,21 @@ const Bento = ({ slice }: BentoProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <PrismicRichText field={slice.primary.heading} />
+      <PrismicRichText
+        components={{
+          heading2: ({ children }) => (
+            <h2 className="text-balance text-center text-5xl font-medium md:text-7xl">
+              {children}
+            </h2>
+          ),
+          em: ({ children }) => (
+            <em className="bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text not-italic text-transparent">
+              {children}
+            </em>
+          ),
+        }}
+        field={slice.primary.heading}
+      />
       <PrismicRichText field={slice.primary.body} />
 
       {slice.items.map((item) => (
