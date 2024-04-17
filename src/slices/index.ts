@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 
 export const components = {
+  bento: dynamic(() => import("./Bento")),
   hero: dynamic(() => import("./Hero")),
   rich_text: dynamic(() => import("./RichText")),
 };
