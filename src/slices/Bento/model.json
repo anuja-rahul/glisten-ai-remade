@@ -57,6 +57,15 @@
             "constraint": {},
             "thumbnails": []
           }
+        },
+        "wide": {
+          "type": "Boolean",
+          "config": {
+            "label": "Wide",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
         }
       }
     }
