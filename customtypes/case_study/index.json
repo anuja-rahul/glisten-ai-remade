@@ -1,25 +1,41 @@
 {
-  "id": "page",
-  "label": "Page",
   "format": "page",
+  "id": "case_study",
+  "label": "Case Study",
   "repeatable": true,
   "status": true,
   "json": {
     "Main": {
       "uid": {
-        "type": "UID",
         "config": {
-          "label": "UID",
-          "placeholder": ""
-        }
+          "label": "UID"
+        },
+        "type": "UID"
       },
-      "title": {
+      "company": {
         "type": "StructuredText",
         "config": {
-          "label": "Title",
+          "label": "Company",
           "placeholder": "",
           "allowTargetBlank": true,
           "single": "heading1"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph"
+        }
+      },
+      "logo_image": {
+        "type": "Image",
+        "config": {
+          "label": "Logo Image",
+          "constraint": {},
+          "thumbnails": []
         }
       },
       "slices": {
@@ -27,18 +43,6 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "case_studies": {
-              "type": "SharedSlice"
-            },
-            "showcase": {
-              "type": "SharedSlice"
-            },
-            "bento": {
-              "type": "SharedSlice"
-            },
-            "hero": {
-              "type": "SharedSlice"
-            },
             "rich_text": {
               "type": "SharedSlice"
             }
@@ -48,29 +52,29 @@
     },
     "SEO & Metadata": {
       "meta_title": {
-        "type": "Text",
         "config": {
           "label": "Meta Title",
           "placeholder": "A title of the page used for social media and search engines"
-        }
+        },
+        "type": "Text"
       },
       "meta_description": {
-        "type": "Text",
         "config": {
           "label": "Meta Description",
           "placeholder": "A brief summary of the page"
-        }
+        },
+        "type": "Text"
       },
       "meta_image": {
-        "type": "Image",
         "config": {
-          "label": "Meta Image",
           "constraint": {
-            "width": 2400,
-            "height": 1260
+            "height": 1260,
+            "width": 2400
           },
+          "label": "Meta Image",
           "thumbnails": []
-        }
+        },
+        "type": "Image"
       }
     }
   }
