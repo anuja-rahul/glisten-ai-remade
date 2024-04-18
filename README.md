@@ -1,4 +1,4 @@
-## 2:33:25
+## 3:42:30
 
 - [x] Module setup
 - [x] Tailwind config
@@ -7,7 +7,10 @@
 - [x] Hero Section
 - [x] Bento Section
 - [x] Showcase Section
-- [ ] Case Study
+- [x] Case Study Section
+- [x] Case Study pages (Nike/Prismic)
+- [x] Integration Section
+- [ ] Call To Action Section
 
 # Prismic + Next.js Minimal TypeScript Starter
 
