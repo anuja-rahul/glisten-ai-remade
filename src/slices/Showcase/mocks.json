@@ -9,8 +9,18 @@
 					{
 						"type": "heading2",
 						"content": {
-							"text": "Increase"
-						}
+							"text": "Your Glisten.",
+							"spans": []
+						},
+						"direction": "ltr"
+					},
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Your workflow.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
@@ -48,8 +58,10 @@
 					{
 						"type": "heading3",
 						"content": {
-							"text": "Apple"
-						}
+							"text": "Design the next big thing.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
@@ -59,15 +71,17 @@
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "Duis laborum nisi mollit voluptate amet sunt proident eu velit laboris laborum consectetur deserunt amet non. Reprehenderit tempor nostrud non eiusmod Lorem cillum Lorem commodo ad occaecat ut. Aliquip consectetur amet velit officia ipsum proident deserunt esse et cillum irure consectetur amet dolor officia."
-						}
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
 			"button_text": {
 				"__TYPE__": "FieldContent",
-				"value": "built",
-				"type": "Text"
+				"type": "Text",
+				"value": "Get Started"
 			},
 			"button_link": {
 				"__TYPE__": "LinkContent",
@@ -78,5 +92,90 @@
 			}
 		},
 		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "reverse",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Company"
+						}
+					}
+				]
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51",
+					"width": 2545,
+					"height": 2545
+				},
+				"url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51",
+				"width": 2545,
+				"height": 2545,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"icon": {
+				"__TYPE__": "FieldContent",
+				"value": "cycle",
+				"type": "Select"
+			},
+			"subheading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading3",
+						"content": {
+							"text": "Positive"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sunt eu consectetur proident qui voluptate eiusmod dolor ea ex proident incididunt. Amet exercitation tempor culpa cupidatat eu non exercitation ipsum nisi anim ea qui."
+						}
+					}
+				]
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "stopped",
+				"type": "Text"
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com"
+				}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
 	}
 ]
