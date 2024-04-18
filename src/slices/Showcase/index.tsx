@@ -1,5 +1,7 @@
+import Bounded from "@/components/Bounded";
 import { Content } from "@prismicio/client";
-import { SliceComponentProps } from "@prismicio/react";
+import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
+import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 
 /**
  * Props for `Showcase`.
@@ -11,12 +13,18 @@ export type ShowcaseProps = SliceComponentProps<Content.ShowcaseSlice>;
  */
 const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
   return (
-    <section
+    <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      Placeholder component for showcase (variation: {slice.variation}) Slices
-    </section>
+      <PrismicRichText field={slice.primary.heading} />
+      <PrismicNextImage field={slice.primary.image} />
+      <>{slice.primary.icon}</>
+      <PrismicRichText field={slice.primary.subheading} />
+      <PrismicRichText field={slice.primary.body} />
+      <>{slice.primary.button_text}</>
+      <PrismicNextLink field={slice.primary.button_link}>Link</PrismicNextLink>
+    </Bounded>
   );
 };
 
