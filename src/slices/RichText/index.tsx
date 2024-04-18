@@ -1,3 +1,4 @@
+import Bounded from "@/components/Bounded";
 import type { Content } from "@prismicio/client";
 import { PrismicNextLink } from "@prismicio/next";
 import {
@@ -27,9 +28,14 @@ type RichTextProps = SliceComponentProps<Content.RichTextSlice>;
  */
 const RichText = ({ slice }: RichTextProps): JSX.Element => {
   return (
-    <section>
-      <PrismicRichText field={slice.primary.content} components={components} />
-    </section>
+    <Bounded>
+      <div className="prose prose-lg prose-slate prose-invert">
+        <PrismicRichText
+          field={slice.primary.content}
+          components={components}
+        />
+      </div>
+    </Bounded>
   );
 };
 
