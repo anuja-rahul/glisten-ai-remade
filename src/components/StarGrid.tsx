@@ -23,7 +23,78 @@ export default function StarGrid() {
       gsap.set(container.current, { opacity: 1 });
 
       const tl = gsap.timeline();
+
       // Entrance animation
+
+      tl.to(".star-grid-item", {
+        keyframes: [
+          {
+            opacity: 0,
+            duration: 0,
+          },
+          {
+            opacity: 0.4,
+            rotate: "+=180",
+            color: "#ffd057",
+            scale: 3,
+            duration: 0.6,
+            stagger: {
+              grid: grid,
+              from: "center",
+              amount: 2,
+            },
+          },
+          {
+            opacity: 0.2,
+            rotate: "+=180",
+            color: "#fff",
+            scale: 1,
+            delay: -2,
+            duration: 0.6,
+            stagger: {
+              grid: grid,
+              from: "center",
+              amount: 3,
+            },
+          },
+        ],
+      });
+
+      // Loop aniamtion
+
+      tl.to(".star-grid-item", {
+        delay: 6,
+        repeat: -1,
+        repeatDelay: 6,
+
+        keyframes: [
+          {
+            opacity: 0.4,
+            rotate: "+=180",
+            color: "#ffd057",
+            scale: 3,
+            duration: 0.6,
+            stagger: {
+              grid: grid,
+              from: "center",
+              amount: 2,
+            },
+          },
+          {
+            opacity: 0.2,
+            rotate: "+=180",
+            color: "#fff",
+            scale: 1,
+            delay: -2,
+            duration: 0.6,
+            stagger: {
+              grid: grid,
+              from: "center",
+              amount: 3,
+            },
+          },
+        ],
+      });
     },
     { scope: container },
   );
