@@ -23,11 +23,8 @@
 ---
 
 <div style="text-align:center;">
-  <img src="docs/hero.png" alt="Image Description" width="500">
+  <img src="docs/hero.png" alt="Image Description" width="500" style="align-items:center;">
 </div>
-
-
-
 
 ---
 
