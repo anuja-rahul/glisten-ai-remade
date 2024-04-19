@@ -5,6 +5,8 @@ import { repositoryName } from "@/prismicio";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+import { Analytics } from "@vercel/analytics/react";
+
 const dmSans = DM_Sans({
   subsets: ["latin"],
   display: "swap",
@@ -20,6 +22,7 @@ export default function RootLayout({
     <html lang="en" className={`${dmSans.variable}`}>
       <body className="bg-[#070815] text-white">
         <Header />
+        <Analytics />
         <main>{children}</main>
         <Footer />
       </body>
