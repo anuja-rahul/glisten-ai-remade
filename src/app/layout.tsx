@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
         <main>
           {children}
           <Analytics />
+          <SpeedInsights />
         </main>
         <Footer />
       </body>

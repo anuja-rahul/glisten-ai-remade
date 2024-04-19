@@ -19,7 +19,7 @@
 - [x] Call To Action Section
 - [x] Mobile NavBar
 - [x] Hero section animations
-- [x] StartGrid NavBar
+- [x] StartGrid animations
 - [ ] Showcase section animations
 
 # Prismic + Next.js Minimal TypeScript Starter
