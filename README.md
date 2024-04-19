@@ -4,7 +4,7 @@
 
 ---
 
-## 3:43:50
+## 4:58:40
 
 - [x] Module setup
 - [x] Tailwind config
@@ -17,7 +17,10 @@
 - [x] Case Study pages (Nike/Prismic)
 - [x] Integration Section
 - [x] Call To Action Section
-- [x] Mbile NavBar
+- [x] Mobile NavBar
+- [x] Hero section animations
+- [x] StartGrid NavBar
+- [ ] Showcase section animations
 
 # Prismic + Next.js Minimal TypeScript Starter
 
