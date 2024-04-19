@@ -10,7 +10,8 @@
 - [x] Case Study Section
 - [x] Case Study pages (Nike/Prismic)
 - [x] Integration Section
-- [ ] Call To Action Section
+- [x] Call To Action Section
+- [x] Mbile NavBar
 
 # Prismic + Next.js Minimal TypeScript Starter
 

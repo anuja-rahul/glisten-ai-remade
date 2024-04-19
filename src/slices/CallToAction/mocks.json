@@ -9,15 +9,17 @@
 					{
 						"type": "heading2",
 						"content": {
-							"text": "Meant"
-						}
+							"text": "AI powered insights for designers",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			},
 			"button_text": {
 				"__TYPE__": "FieldContent",
-				"value": "each",
-				"type": "Text"
+				"type": "Text",
+				"value": "Start Now"
 			},
 			"button_link": {
 				"__TYPE__": "LinkContent",
